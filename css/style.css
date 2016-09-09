@@ -155,6 +155,13 @@ p {
 .logo{
     padding-bottom: 50px;
 }
+
+#putih{
+  display: block;
+}
+#hitam{
+  display: none;
+}
 .home_text{
     text-align: left;
 }
@@ -171,6 +178,12 @@ p {
     }
     .home_text{
         text-align: center;
+    }
+    #putih{
+      display: none;
+    }
+    #hitam{
+      display: block;
     }
 
 }
