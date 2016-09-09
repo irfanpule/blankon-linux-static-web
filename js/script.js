@@ -2,7 +2,7 @@
 $(window).bind("load", function() {
 
     "use strict";
-    
+
     $(".spn_hol").fadeOut(1000);
 });
 
@@ -11,11 +11,11 @@ $(window).bind("load", function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(window).scroll(function() {
 
         "use strict";
-        
+
         if ($(window).scrollTop() > 80) {
             $(".navbar").css({
                 'margin-top': '0px',
@@ -61,11 +61,11 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(".navbar-nav li a").click(function() {
 
         "use strict";
-        
+
         $(".navbar-nav li a").parent().removeClass("active");
         $(this).parent().addClass("active");
     });
@@ -78,15 +78,15 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(window).scroll(function() {
 
         "use strict";
-        
+
         $(".page").each(function() {
 
             "use strict";
-            
+
             var bb = $(this).attr("id");
             var hei = $(this).outerHeight();
             var grttop = $(this).offset().top - 70;
@@ -105,7 +105,7 @@ $(document).ready(function() {
 
 
 $(function() {
-	
+
 	"use strict";
 
   $('a[href*=#]:not([href=#])').click(function() {
@@ -128,11 +128,11 @@ $(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     setInterval(function() {
 
         "use strict";
-        
+
         var widnowHeight = $(window).height();
         var containerHeight = $(".home-container").height();
         var padTop = widnowHeight - containerHeight;
@@ -149,7 +149,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(window).bind('load', function() {
         "use strict";
         parallaxInit();
@@ -170,7 +170,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $("#owl-demo").owlCarousel({
         autoPlay: 3000,
         items: 4, //10 items above 1000px browser width
@@ -181,7 +181,7 @@ $(document).ready(function() {
 });
 
 
-    
+
  //PRETTYPHOTO
 
 $(document).ready(function() {
@@ -200,7 +200,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
- 
+
     new WOW().init();
 });
 
@@ -210,7 +210,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     // Basic FitVids Test
     $(".video").fitVids();
 });
@@ -221,7 +221,7 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $('#mc-form').ajaxChimp({
         callback: mailchimpCallback,
         url: "https://themerocks.us9.list-manage.com/subscribe/post?u=f04c804868966b1b4509daa9b&amp;id=ad7b6aba65"
@@ -230,7 +230,7 @@ $(document).ready(function() {
     function mailchimpCallback(resp) {
 
         "use strict";
-        
+
         if (resp.result === 'success') {
             $('.subscription-success').html('<i class="pe-7s-check"></i><br/>' + resp.msg).fadeIn(1000);
             $('.subscription-error').fadeOut(500);
@@ -246,11 +246,11 @@ $(document).ready(function() {
 $(document).ready(function() {
 
     "use strict";
-    
+
     $(".form_submit").click(function() {
 
         "use strict";
-        
+
         var name = $("#name").val();
         var emaild = $("#email").val();
         var subject = $("#subject").val();
@@ -311,13 +311,13 @@ $(document).ready(function() {
 });
 
 
- 
-/// SMOOTH SCROLL           
+
+/// SMOOTH SCROLL
 
 $(document).ready(function() {
 
     "use strict";
-    
+
     var scrollAnimationTime = 1200,
         scrollAnimation = 'easeInOutExpo';
     $('a.scrollto').bind('click.smoothscroll', function(event) {
@@ -342,13 +342,13 @@ $(document).ready(function() {
 
 
 //VIDEO BACKGROUND
-$(document).ready(function() {
-  var videobackground = new $.backgroundVideo($('body'), {
-    "align": "centerXY",
-    "width": 1280,
-    "height": 720,
-    "path": "media/",
-    "filename": "cloud",
-    "types": ["mp4","ogg","webm"]
-  });
-});
+// $(document).ready(function() {
+//   var videobackground = new $.backgroundVideo($('body'), {
+//     "align": "centerXY",
+//     "width": 1280,
+//     "height": 720,
+//     "path": "media/",
+//     "filename": "cloud",
+//     "types": ["mp4","ogg","webm"]
+//   });
+// });
