@@ -198,8 +198,8 @@ p {
 .home-btn:active,
 .home-btn:visited {
     background: transparent;
-    border-color: #ff0000;
-    color: #ff0000;
+    border-color: #a7abae;
+    color: #a7abae;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -213,8 +213,8 @@ p {
     transition: all 1s;
 }
 .home-btn:hover {
-    background-color: #ff0000;
-    color: #fff;
+    background-color: #fff;
+    color: #193e4e;
 }
 .tuor,
 .tuor:focus,
@@ -237,7 +237,6 @@ tuor:visited {
 .tuor i {
     font-size: 20px;
     padding-left: 5px;
-    color: #ff0000;
 }
 
 
@@ -413,7 +412,7 @@ tuor:visited {
     bottom: -8px;
 }
 div.carousel-inner .item img {
-    border: 2px solid #ff0000;
+    border: 2px solid #338db8;
     border: 50%;
     padding: 3px;
     width: 65%;
@@ -445,14 +444,14 @@ div.carousel-inner .item img {
 .testimonial ol.carousel-indicators li {
     width: 12px;
     height: 12px;
-    border: 1px solid #ff0000;
+    border: 1px solid #fff;
     margin: 1PX
 }
 .testimonial ol.carousel-indicators li.active {
     width: 12px;
     height: 12px;
     border: 0px solid #ff0000;
-    background: #ff0000;
+    background: #338db8;
 }
 /*---------------------------------------
    SECTION FEATURES
@@ -706,13 +705,14 @@ div.carousel-inner .item img {
 .single_store i {
     position: absolute;
     top: 20px;
-    left: 70px;
+    left: -3px;
     font-size: 16px;
     font-weight: 300;
-    color: #ff0000;
+    color: #068bc8;
     text-align: center;
     opacity: 1;
     padding-top: 90px;
+    width: 100%;
     -webkit-transition: all 1s;
     -moz-transition: all 1s;
     -o-transition: all 1s;
@@ -987,7 +987,7 @@ div.carousel-inner .item img {
     background-color: #1A1D22;
     padding-bottom: 65px;
     padding-top: 65px;
-    border-bottom: 3px solid #ff0000;
+    border-bottom: 3px solid #338db8;
 }
 .copyright h2 {
     height: 0px;
@@ -1013,7 +1013,7 @@ div.carousel-inner .item img {
     text-align: right;
 }
 .scroll_top a {
-    background: #ff0000;
+    background: #338db8;
     padding: 25px;
 }
 .scroll_top a i {
