@@ -1,0 +1,32 @@
+{
+  "name": "blankon-linux-static-web",
+  "version": "1.0.0",
+  "description": "Ini adalah halaman antar muka untuk website BlankOn Linux",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify": "0.0.14",
+    "gulp-uglify": "^2.0.0",
+    "lite-server": "^2.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "(cd dist;../node_modules/.bin/lite-server)",
+    "build": "./node_modules/.bin/gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlankOn/blankon-linux-static-web.git"
+  },
+  "author": "Herpiko Dwi Aguno <herpiko@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BlankOn/blankon-linux-static-web/issues"
+  },
+  "homepage": "https://github.com/BlankOn/blankon-linux-static-web#readme"
+}
