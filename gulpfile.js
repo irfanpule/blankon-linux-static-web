@@ -10,12 +10,7 @@ gulp.task('clean', function() {
   return del(['dist/fonts/raleway/*', 'dist/fonts/*', 'dist/images/installer/*', 'dist/images/*', 'dist/*']);
 });
 
-gulp.task('fa', function() {
-  gulp.src('font-awesome/*')
-  .pipe(gulp.dest('./public/fontawesome/'))
-});
-
-gulp.task('styles', ['fa'], function() {
+gulp.task('styles', function() {
   gulp.src('css/*')
   .pipe(cleanCss())
   .pipe(concat('style.css'))
