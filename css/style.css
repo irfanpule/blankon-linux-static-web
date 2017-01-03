@@ -147,7 +147,7 @@ p {
 .header {
     background: url(../images/mosaic_1.png);
     background-size: cover;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .75);
@@ -944,10 +944,10 @@ div.carousel-inner .item img {
     background: transparent
 }
 .subscribe .section_title h2{
-	color: #eaeaea;
+    color: #eaeaea;
 }
 .subscribe .section_title p{
-	color: #a4a4a4;
+    color: #a4a4a4;
 }
 .subscribe_form {
     text-align: center;
