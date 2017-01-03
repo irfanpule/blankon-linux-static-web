@@ -693,9 +693,8 @@ div.carousel-inner .item img {
     background: #1a1a1a;
     margin-top: -8px;
     position: relative;
-}
-.available_title {
     padding-top: 75px;
+    padding-bottom: 75px;
 }
 .available_title h2 {
     color: #fff;
@@ -703,6 +702,28 @@ div.carousel-inner .item img {
 }
 .available_title p {
     color: #B5B5B5;
+}
+.available_actions {
+    margin-top: 25px;
+}
+.available-btn {
+    background: transparent;
+    border-color: #a7abae;
+}
+.available-btn:hover {
+    background: #FFFFFF;
+    color: #A6A6A6;
+    border-color: #a7abae;
+}
+.available-primary-btn {
+    background: #FFFFFF;
+    color: #A6A6A6;
+    border-color: #a7abae;
+}
+.available-primary-btn:hover {
+    background: #FFFFFF;
+    color: #A6A6A6;
+    border-color: #a7abae;
 }
 .single_store {
     text-align: center;
