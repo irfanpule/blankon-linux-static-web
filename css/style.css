@@ -147,7 +147,7 @@ p {
 .header {
     background: url(../images/mosaic_1.png);
     background-size: cover;
-	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 .header .section_overlay {
     background-color: rgba(33, 33, 33, .75);
@@ -693,9 +693,8 @@ div.carousel-inner .item img {
     background: #1a1a1a;
     margin-top: -8px;
     position: relative;
-}
-.available_title {
     padding-top: 75px;
+    padding-bottom: 75px;
 }
 .available_title h2 {
     color: #fff;
@@ -703,6 +702,28 @@ div.carousel-inner .item img {
 }
 .available_title p {
     color: #B5B5B5;
+}
+.available_actions {
+    margin-top: 25px;
+}
+.available-btn {
+    background: transparent;
+    border-color: #a7abae;
+}
+.available-btn:hover {
+    background: #FFFFFF;
+    color: #A6A6A6;
+    border-color: #a7abae;
+}
+.available-primary-btn {
+    background: #FFFFFF;
+    color: #A6A6A6;
+    border-color: #a7abae;
+}
+.available-primary-btn:hover {
+    background: #FFFFFF;
+    color: #A6A6A6;
+    border-color: #a7abae;
 }
 .single_store {
     text-align: center;
@@ -923,10 +944,10 @@ div.carousel-inner .item img {
     background: transparent
 }
 .subscribe .section_title h2{
-	color: #eaeaea;
+    color: #eaeaea;
 }
 .subscribe .section_title p{
-	color: #a4a4a4;
+    color: #a4a4a4;
 }
 .subscribe_form {
     text-align: center;
