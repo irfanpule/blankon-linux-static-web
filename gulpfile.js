@@ -45,6 +45,11 @@ gulp.task('html', function() {
   .pipe(gulp.dest('./dist'));
 });
 
-var tasks = ['clean', 'styles', 'libs', 'fonts', 'images', 'favicon', 'html'];
+gulp.task('rilis', function() {
+  gulp.src('catatanrilis.html')
+  .pipe(gulp.dest('./dist'));
+});
+
+var tasks = ['clean', 'styles', 'libs', 'fonts', 'images', 'favicon', 'html', 'rilis'];
 
 gulp.task('default', tasks);
