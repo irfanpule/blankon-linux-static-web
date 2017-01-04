@@ -41,7 +41,7 @@ gulp.task('fonts', function() {
 });
 
 gulp.task('html', function() {
-  gulp.src('index.html')
+  gulp.src('*.html')
   .pipe(gulp.dest('./dist'));
 });
 
