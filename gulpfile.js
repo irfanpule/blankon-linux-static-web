@@ -41,15 +41,10 @@ gulp.task('fonts', function() {
 });
 
 gulp.task('html', function() {
-  gulp.src('index.html')
+  gulp.src('*.html')
   .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('rilis', function() {
-  gulp.src('catatanrilis.html')
-  .pipe(gulp.dest('./dist'));
-});
-
-var tasks = ['clean', 'styles', 'libs', 'fonts', 'images', 'favicon', 'html', 'rilis'];
+var tasks = ['clean', 'styles', 'libs', 'fonts', 'images', 'favicon', 'html'];
 
 gulp.task('default', tasks);
