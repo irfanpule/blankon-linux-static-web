@@ -1125,3 +1125,16 @@ select:-webkit-autofill {
         -webkit-transform: scale(1.0);
     }
 }
+
+/* SPONSOR */
+.sponsor {
+	margin-bottom: 50px;
+}
+
+/* RELEASE PAGE */
+.release-id {
+	margin-bottom: 50px;	
+}
+.release-en {
+	margin-bottom: 50px;	
+}
