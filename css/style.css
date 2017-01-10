@@ -1138,3 +1138,8 @@ select:-webkit-autofill {
 .release-en {
 	margin-bottom: 50px;	
 }
+
+/*  */
+.xl-title {
+    font-size: 50px !important;
+}
