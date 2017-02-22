@@ -1138,3 +1138,12 @@ select:-webkit-autofill {
 .release-en {
 	margin-bottom: 50px;	
 }
+
+/*  */
+.xl-title {
+    font-size: 50px !important;
+}
+
+.sponsor-peta-item, .sponsor-mega-item, .sponsor-giga-item, .sponsor-tera-item, .sponsor-kilo-item {
+  display:none;
+}
