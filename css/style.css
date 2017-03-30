@@ -1152,3 +1152,13 @@ select:-webkit-autofill {
 .nav {
     font-size: 12px;
 }
+
+/* mitra */
+.detail-mitra p{
+    font-size: 17px;
+}
+
+.boni img{
+    width: 100%;
+    text-align: center;
+}
