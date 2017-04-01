@@ -1147,3 +1147,18 @@ select:-webkit-autofill {
 .sponsor-peta-item, .sponsor-mega-item, .sponsor-giga-item, .sponsor-tera-item, .sponsor-kilo-item {
   display:none;
 }
+
+/*nav bar edit*/
+.nav {
+    font-size: 12px;
+}
+
+/* mitra */
+.detail-mitra p{
+    font-size: 17px;
+}
+
+.boni img{
+    width: 100%;
+    text-align: center;
+}
