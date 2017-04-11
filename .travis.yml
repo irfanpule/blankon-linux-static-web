@@ -7,11 +7,3 @@ before_script:
 
 script:
   - npm run build
-
-notifications:
-  irc:
-    channels:
-      - "chat.freenode.net#blankon"
-    template:
-      - "%{repository} (%{commit}) : %{message} %{author}"
-      - "Build details: %{build_url}"
