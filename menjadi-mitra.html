@@ -215,6 +215,22 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" >
+                            <h4 class="panel-title">
+                                <a id="title-four">
+                                    Mendaftar Sebagai Mitra
+                                </a>
+                            </h4>
+                            </div>
+                            <div>
+                                <div class="panel-body" id="detail-mitra-four">
+                                    <div class="detail-mitra">
+                                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe8uxowQsb6qLIhVbC0ODt_fr4H1a42SuOlPI_1IcfJddaIoQ/viewform?embedded=true" width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                         
                         
                     </div>
@@ -304,23 +320,33 @@
             $("#detail-mitra-one").show();
             $("#detail-mitra-two").hide();
             $("#detail-mitra-three").hide();
+            $("#detail-mitra-four").hide();
 
             $("#title-one").click(function(){
                 $("#detail-mitra-one").show();
                 $("#detail-mitra-two").hide();
                 $("#detail-mitra-three").hide();
+                $("#detail-mitra-four").hide();
             });
 
             $("#title-two").click(function(){
-                $("#detail-mitra-two").show();
                 $("#detail-mitra-one").hide();
+                $("#detail-mitra-two").show();
                 $("#detail-mitra-three").hide();
+                $("#detail-mitra-four").hide();
             });
 
             $("#title-three").click(function(){
-                $("#detail-mitra-three").show();
-                $("#detail-mitra-two").hide();
                 $("#detail-mitra-one").hide();
+                $("#detail-mitra-two").hide();
+                $("#detail-mitra-three").show();
+                $("#detail-mitra-four").hide();
+            });
+            $("#title-four").click(function(){
+                $("#detail-mitra-one").hide();
+                $("#detail-mitra-two").hide();
+                $("#detail-mitra-three").hide();
+                $("#detail-mitra-four").show();
             });
         });
     </script>
