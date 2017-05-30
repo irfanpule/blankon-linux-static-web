@@ -29,6 +29,8 @@ gulp.task('images', function() {
   .pipe(gulp.dest('./dist/images'))
   gulp.src('images/installer/*')
   .pipe(gulp.dest('./dist/images/installer'))
+  gulp.src('images/sponsor/*')
+  .pipe(gulp.dest('./dist/images/sponsor'))
 });
 
 gulp.task('favicon', function() {
