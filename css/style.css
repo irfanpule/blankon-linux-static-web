@@ -1144,7 +1144,7 @@ select:-webkit-autofill {
     font-size: 50px !important;
 }
 
-.sponsor-peta-item, .sponsor-mega-item, .sponsor-giga-item, .sponsor-tera-item, .sponsor-kilo-item {
+.sponsor-peta-item, .sponsor-mega-item, .sponsor-giga-item, .sponsor-tera-item, .sponsor-kilo-item, .sponsor-bita-item, {
   display:none;
 }
 
