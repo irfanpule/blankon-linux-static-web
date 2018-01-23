@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tuanpembual/blankon-linux-static-web.svg?branch=master)](https://travis-ci.org/tuanpembual/blankon-linux-static-web)
+
 ### Requirements
 
 `npm`
