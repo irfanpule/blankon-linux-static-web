@@ -1133,10 +1133,10 @@ select:-webkit-autofill {
 
 /* RELEASE PAGE */
 .release-id {
-	margin-bottom: 50px;	
+	margin-bottom: 50px;
 }
 .release-en {
-	margin-bottom: 50px;	
+	margin-bottom: 50px;
 }
 
 /*  */
@@ -1161,4 +1161,12 @@ select:-webkit-autofill {
 .boni img{
     width: 100%;
     text-align: center;
+}
+
+.testimonial ol.carousel-indicators li.active {
+    background: #faa509;
+}
+
+div.carousel-inner .item img {
+    border: 2px solid #faa509;
 }
